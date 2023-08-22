@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "e0J6bqwAq7izZ11EwfMRaMNQ4aXB//wK7qp8mRA/fca9eHGfOpR43e5KCswQOVyxbR1nyXQIb6E4yUHqeGeAhA==",
+  "success": true,
+  "projectFilePath": "/Users/jvpalves/Desktop/MicroservicesExample/JwtTokenAuthentication/JwtTokenAuthentication.csproj",
+  "expectedPackageFiles": [
+    "/Users/jvpalves/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.5/microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",
+    "/Users/jvpalves/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/jvpalves/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/jvpalves/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.15.1/microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
+    "/Users/jvpalves/.nuget/packages/microsoft.identitymodel.logging/6.15.1/microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
+    "/Users/jvpalves/.nuget/packages/microsoft.identitymodel.protocols/6.15.1/microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "/Users/jvpalves/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.15.1/microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
+    "/Users/jvpalves/.nuget/packages/microsoft.identitymodel.tokens/6.15.1/microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
+    "/Users/jvpalves/.nuget/packages/system.identitymodel.tokens.jwt/6.15.1/system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
+    "/Users/jvpalves/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

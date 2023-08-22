@@ -1,0 +1,5 @@
+/Users/jvpalves/Desktop/MicroservicesExample/JwtTokenService/obj/Debug/net7.0/JwtTokenService.csproj.AssemblyReference.cache
+/Users/jvpalves/Desktop/MicroservicesExample/JwtTokenService/obj/Debug/net7.0/JwtTokenService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jvpalves/Desktop/MicroservicesExample/JwtTokenService/obj/Debug/net7.0/JwtTokenService.AssemblyInfoInputs.cache
+/Users/jvpalves/Desktop/MicroservicesExample/JwtTokenService/obj/Debug/net7.0/JwtTokenService.AssemblyInfo.cs
+/Users/jvpalves/Desktop/MicroservicesExample/JwtTokenService/obj/Debug/net7.0/JwtTokenService.csproj.CoreCompileInputs.cache

@@ -1,0 +1,69 @@
+{
+    "Routes": [
+        {
+            "UpstreamPathTemplate": "/auth",
+            "UpstreamhttpsMethod": [
+                "Post"
+            ],
+            "DownstreamScheme": "https",
+            "DownstreamPathTemplate": "/api/auth",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5239
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/swagger",
+            "UpstreamhttpsMethod": [
+                "Get"
+            ],
+            "DownstreamScheme": "https",
+            "DownstreamPathTemplate": "/swagger",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5000
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/catalog",
+            "UpstreamhttpsMethod": [
+                "Get"
+            ],
+            "DownstreamPathTemplate": "/api/Catalog",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5079
+                }
+            ]
+        },
+        {
+            "UpstreamPathTemplate": "/catalog/{id}",
+            "UpstreamhttpsMethod": [
+                "Delete"
+            ],
+            "DownstreamPathTemplate": "/api/Catalog/{id}",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5079
+                }
+            ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer"
+            },
+            "RouteClaimsRequirement": {
+                "Role": "Administrator"
+              }
+        }
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "https://localhost:5000"
+    }
+}
